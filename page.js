@@ -19,8 +19,8 @@ $(document).ready(function () {
     $noButton.on('click', function () {
         const randomPrompt = noPrompts[Math.floor(Math.random() * noPrompts.length)];
         $noButton.text(randomPrompt);
-        const yesFont = parseFloat($yesButton.css('font-size')) + .5;
-        const noFont = parseFloat($noButton.css('font-size')) - .5;
+        const yesFont = parseFloat($yesButton.css('font-size')) + 1;
+        const noFont = parseFloat($noButton.css('font-size')) - 1;
         console.log(noFont)
 
         $yesButton.css('font-size', yesFont + 'px');
