@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(Valentines-Day.jpg);
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image */
+}
+
+.container {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke; /* Red heading color */
+  font-size: 23px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px; /* Increase the padding */
+  border-radius: 8px; /* Add rounded corners */
+  border-width: 3px;
+  border-color: #000000;
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+#yesButton {
+  font-size: 32px;
+  background-color: #03C03C; /* Make the "Yes" button red */
+  color: white; /* Set text color to white for better contrast */
+}
+
+#noButton {
+  background-color: #E31837; /* Make the "No" button green */
+  color: white; /* Set text color to white for better contrast */
+  font-size: 32px;
+}
+
+.congratulations {
+  display: none;
+  text-align: center; /* Center align the content */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 28px;
+}
+
+.congratulations h2 {
+  margin-bottom: 20px; /* Add some bottom margin to create space between the message and the image */
+}
+
+.congratulations img {
+  display: block; /* Ensure that the image appears on a separate line */
+  margin: 0 auto; /* Center the image horizontally */
+  width: 150px;
+  height: auto;
+}
